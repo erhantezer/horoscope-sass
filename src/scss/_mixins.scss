@@ -1,0 +1,33 @@
+// !=========================================================
+// !                    MIXINS
+// !=========================================================
+
+@mixin media-xsm {
+    @media screen and (min-width: 0px) {
+        @content;
+    }
+}
+
+@mixin media-sm {
+    @media screen and (min-width: 576) {
+        @content;
+    }
+}
+
+@mixin media-md {
+    @media screen and (min-width: 768) {
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 1024) {
+        @content;
+    }
+}
+
+@mixin media-xl {
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+}

@@ -1,8 +1,11 @@
+import Card from "./Card";
 
 
 const Main = () => {
   return (
-    <div className="card-container"></div>
+    <div className="card-container">
+      <Card/>
+    </div>
   )
 
 };

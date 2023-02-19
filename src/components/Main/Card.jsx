@@ -1,7 +1,11 @@
 import React from "react";
+import useData from "../../hooks/useData";
 
 const Card = () => {
-  return <div>Card</div>;
+  const { title, date, image, id, desc } = useData()
+  return <div className="cards">
+      
+  </div>;
 };
 
 export default Card;

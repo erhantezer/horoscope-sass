@@ -1,4 +1,4 @@
-import React from "react";
+import "./Navbar.scss";
 import logo from "../../helpers/logo.png";
 
 const Navbar = () => {

@@ -44,14 +44,13 @@
     // }
 }
 
-@include media-xsm {
-    .links {
+@include media-xsm{
+    .links{
         flex-direction: column;
     }
 }
-
-@include media-lg {
-    .links {
+@include media-lg{
+    .links{
         flex-direction: row;
     }
 }

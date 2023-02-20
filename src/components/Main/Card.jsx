@@ -27,7 +27,12 @@ console.log(veri)
           <img src={image} alt="" />
 
           <div className="card-over">
-            <p>{desc}</p>
+            <p>
+              {show ? desc : `${desc.slice(0,200)}...`}
+              <button onClick={() => setShow(!show)}>
+                {show ? "Show Less" : "Read More"}
+              </button>
+            </p>
           </div>
         </div>
         )

@@ -1,10 +1,13 @@
 
+import { useState } from "react";
 import useData from "../../useData";
 
 // { id, title, date, image, desc }
 
 const Card = () => {
-const {veri}= useData()
+const {veri}= useData();
+const [show, setShow] = useState(false)
+
 console.log(veri)
   return (
     <>

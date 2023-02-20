@@ -18,6 +18,10 @@
             opacity: 1;
         }
 
+        &:hover .date{
+            overflow: hidden;
+        }
+
         img{
             width: 500px;
             height: 350px;

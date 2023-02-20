@@ -1,5 +1,6 @@
 import "./Navbar.scss";
 import logo from "../../helpers/logo.png";
+// import logo1 from "../../helpers/black-logo.webp";
 
 const Navbar = () => {
   return (
@@ -7,6 +8,9 @@ const Navbar = () => {
       <div className="logo">
         <img src={logo} alt="" />
       </div>
+      {/* <div>
+        <img className="logo1" src={logo1} alt="" />
+      </div> */}
       <div className="links">
         <a href="#horoscope">Horoscope</a>
         <a href="#daily">Daily</a>

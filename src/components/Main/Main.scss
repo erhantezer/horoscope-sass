@@ -1,0 +1,22 @@
+@import "../../scss/variables";
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+
+    .cards{
+        width: 500px;
+        height: 350px;
+        
+
+        img{
+            width: 500px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 10px;
+            opacity: 0.5;
+        }
+    }
+}

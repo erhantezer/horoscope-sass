@@ -9,7 +9,14 @@
     .cards{
         width: 500px;
         height: 350px;
-        
+        position: relative;
+        overflow: hidden;
+        &:hover .card-over {
+            transform: translateY(0%);
+        }
+        &:hover img{
+            opacity: 1;
+        }
 
         img{
             width: 500px;
